@@ -88,12 +88,22 @@ img {
  .sectionwrapper {
 
     display: flex;
-    flex-wrap: wrap;
-     flex-direction: column;
-    flex-basis; 400px;
+     flex-direction: row-reverse;
+
+
+}
+
+.column1 {
+    display: flex;
+    flex-grow: 1;
+
 }
 
 
+.column2 {
+    display: flex;
+    flex-grow: 2
+}
 
 
 

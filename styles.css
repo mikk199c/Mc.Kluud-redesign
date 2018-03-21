@@ -93,6 +93,9 @@ img {
     justify-content: space-around;
 
 
+    outline: 2px solid;
+
+
 
 }
 
@@ -100,10 +103,10 @@ img {
 
 .column1 {
     display: flex;
-    height: auto;
     justify-content: space-between;
     padding:10px;
 
+    outline: 2px solid;
 
 }
 
@@ -113,6 +116,7 @@ img {
     flex-basis: 400px;
     justify-content: space-between;
     padding: 10px;
+    outline: 2px solid;
 
 }
 
@@ -122,7 +126,7 @@ img {
 
 
 #pic1 {
-    max-height: 50vw;
+    max-height: 70vw;
     max-width: 50vw;
 }
 

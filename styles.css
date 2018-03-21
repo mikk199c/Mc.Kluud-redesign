@@ -82,4 +82,21 @@ body {
 
 img {
     max-width: 100vw;
+    height: auto;
 }
+
+ .sectionwrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+     flex-direction: column;
+    flex-basis; 400px;
+}
+
+
+
+
+
+
+
+

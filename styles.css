@@ -88,7 +88,9 @@ img {
 
 .sectionwrapper {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 
@@ -96,18 +98,24 @@ img {
 
 .column1 {
     display: flex;
-
     height: auto;
+    padding-top: 25px;
+
 }
 
 
 .column2 {
     display: flex;
+    flex-basis: 300px;
 
 }
 
 
 
+#pic1 {
+    max-height: 100%;
+    max-width: 50vw;
+}
 
 
 

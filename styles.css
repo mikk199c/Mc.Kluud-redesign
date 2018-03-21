@@ -113,8 +113,12 @@ img {
     flex-basis: 400px;
     justify-content: space-between;
     padding 10px;
-
+    flex-grow: 1;}
+    flex-basis: 300px;
 }
+
+
+
 
 
 

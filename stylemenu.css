@@ -3,6 +3,7 @@ p {
     color: white;
 
 
+
 }
 
 h1, h3, h4, h5, h6 {
@@ -15,12 +16,52 @@ h1, h3, h4, h5, h6 {
 h2 {
     font-family: 'ryeregular';
     color: white;
+    text-align: center;
+    font-size: 4.5em;
+    padding:60px;
 
 }
 
 
 
 
+
+.sectionwrapper {
+
+ width:100%;
+ text-align:center;
+}
+
+
+.menu1, .alkoholfri, .drinks, .shots  {
+    /*width: 200px;
+    height: 200px;
+    float: left;*/
+ width: calc(100% / 6);
+ display: inline-block;
+ vertical-align:text-top;
+
+ text-align:center;
+ margin:2%;
+ padding:20px;
+ font-size: 1.5em;
+
+}
+
+
+.andet {
+    width: 200px;
+    height: 200px;
+    align-content: center;
+
+
+}
+
+
+
+
+
+/*
 .color1 {
     display: inline-block;
     width: 100px;
@@ -64,7 +105,7 @@ h2 {
     border: 2px solid black;
     background-color: #6B462E;
 
-}
+}*/
 
 @font-face {
     font-family: 'ryeregular';
@@ -77,6 +118,9 @@ h2 {
 
 
 
+
+/*
+
 .sectionwrapper {
     display: flex;
     flex-direction: row;
@@ -86,9 +130,11 @@ h2 {
 
 
 }
+*/
 
 
 
+/*
 .column1 {
     display: flex;
     height: auto;
@@ -108,15 +154,18 @@ h2 {
     flex-basis: 300px;
 }
 
+*/
 
 
 
 
+/*
 
 #pic1 {
     max-height: 50vw;
     max-width: 50vw;
 }
+*/
 
 
 

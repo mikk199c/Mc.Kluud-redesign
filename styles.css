@@ -102,13 +102,36 @@ img {
 
 .column2 {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 1;}
 
 
+/***********NAVIGATION***********/
 
+nav {
+    text-align: center;
+    font-size:.8em;
+}
 
+nav .content a {
+    display:inline-flex;
+    padding: 4px 4px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: 'ryeregular';
+    text-decoration: none;
+    color: black;
+}
 
+nav a:hover {
+    background-color: #59595B;
+    color:white;
+}
 
-
+@media only screen and (max-width: 500px) {nav .content a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .2em;
+    }
+}
 
 

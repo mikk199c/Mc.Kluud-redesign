@@ -2,20 +2,18 @@ p {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1em;
     color: white;
-    text-align: bottom;
+    text-align: left;
 }
 
 .contact {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1em;
     color: white;
-    text-align: bottom;
+    text-align: left;
 
 }
 
-h1,
-h3,
-h4,
+h1, h3, h4
     {
     font-family: 'ryeregular';
     color: white;

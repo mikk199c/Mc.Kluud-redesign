@@ -2,7 +2,7 @@
 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 0.9em;
-    text-align: bottom;
+    text-align: left;
 
 }
 
@@ -259,23 +259,34 @@ html {
 }
 
 
+.imgfram {
+    background: url(splashv3.webp);
 
+}
+
+.div1 {
+
+    height: 100px;
+    width: 100%;
+}
 
 header {
     background: url(splashv3.webp);
-    height: 645px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+   /* width: 100%;
+    padding: */
 
 }
 
-}
+
 
 .contact {
 
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 0.1em;
-    text-align: bottom;
+    font-size: 0.9em;
+    text-align: left;
 
 }
 
@@ -285,7 +296,7 @@ header {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1em;
     color: black;
-    text-align: bottom;
+    text-align: center;
     margin: auto;
     padding-left: 135px;
 }

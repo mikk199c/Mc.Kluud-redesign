@@ -1,6 +1,7 @@
 p {
     font-family: 'PT Sans Narrow', sans-serif;
     color: white;
+    text-align: center;
 
 
 
@@ -40,7 +41,11 @@ h2 {
 table {
     font-family: 'ryeregular';
     color: white;
-    border-spacing: 5px;
+    border-spacing: 10px;
+    float: left;
+    justify-content: space-around;
+    text-align: left;
+
 
 
 }
@@ -51,9 +56,22 @@ td,
 th {
     font-family: 'ryeregular';
     color: white;
-    padding: 3px;
-    margin: 2px;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
 
+
+}
+
+th {
+
+    font-size: 1.5em;
+
+}
+
+.sectionwrapper {
+    justify-content: center;
+    display: flex;
 
 }
 

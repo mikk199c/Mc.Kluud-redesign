@@ -155,7 +155,7 @@ footer {
 }
 
 em {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 
@@ -257,4 +257,11 @@ header {
 
     }
 
+.contact {
+
+   font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.88em;
+       text-align: bottom;
+
+       }
 

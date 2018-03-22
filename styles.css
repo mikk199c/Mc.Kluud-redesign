@@ -213,7 +213,7 @@ nav a:hover {
 
 
 html {
-    background: url(background1.png) no-repeat center center fixed;
+    background: url(background1.webp) no-repeat center center fixed;
 
     background-size: cover;
 }
@@ -252,7 +252,7 @@ html {
 
 header {
     background: url(splashv3.webp);
-    height: 600px;
+    height: 645px;
     background-size: cover;
     background-repeat: no-repeat;
 }

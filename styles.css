@@ -232,6 +232,14 @@ html {
   color: white;
 }
 
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
 header {
     background: url(splashv2.jpg);
     height: 600px;

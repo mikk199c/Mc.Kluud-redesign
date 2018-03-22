@@ -87,6 +87,7 @@ th {
 .sectionwrapper {
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
 
 
 }
@@ -299,3 +300,4 @@ html {
   background: #3B5998;
   color: white;
 }
+

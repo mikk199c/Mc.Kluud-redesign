@@ -1,12 +1,17 @@
 p {
     font-family: 'PT Sans Narrow', sans-serif;
     color: white;
+    text-align: center;
 
 
 
 }
 
-h1, h3, h4, h5, h6 {
+h1,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'ryeregular';
     color: white;
 
@@ -17,15 +22,61 @@ h2 {
     font-family: 'ryeregular';
     color: white;
     text-align: center;
-    font-size: 4.5em;
-    padding:60px;
+    font-size: 5em;
+    padding: 40px;
+
+}
+
+
+/*table, th, td {
+    padding: 15px;
+    text-align: left;
+    border-spacing: 5px;
+
+     font-family: 'ryeregular';
+    color: white;
+
+}*/
+
+table {
+    font-family: 'ryeregular';
+    color: white;
+    border-spacing: 10px;
+    float: left;
+    justify-content: space-around;
+    text-align: left;
+
+
 
 }
 
 
 
+td,
+th {
+    font-family: 'ryeregular';
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
 
 
+}
+
+th {
+
+    font-size: 1.5em;
+
+}
+
+.sectionwrapper {
+    justify-content: center;
+    display: flex;
+
+}
+
+
+/*
 .sectionwrapper {
 
  width:100%;
@@ -34,19 +85,20 @@ h2 {
 
 
 .menu1, .alkoholfri, .drinks, .shots  {
-    /*width: 200px;
+    width: 200px;
     height: 200px;
-    float: left;*/
+    float: left;
  width: calc(100% / 6);
  display: inline-block;
  vertical-align:text-top;
 
- text-align:center;
+ text-align:justify;
  margin:2%;
  padding:20px;
- font-size: 1.5em;
+ font-size: 1.4em;
 
 }
+
 
 
 .andet {
@@ -56,10 +108,7 @@ h2 {
 
 
 }
-
-
-
-
+*/
 
 /*
 .color1 {
@@ -132,8 +181,6 @@ h2 {
 }
 */
 
-
-
 /*
 .column1 {
     display: flex;
@@ -156,9 +203,6 @@ h2 {
 
 */
 
-
-
-
 /*
 
 #pic1 {
@@ -166,8 +210,6 @@ h2 {
     max-width: 50vw;
 }
 */
-
-
 
 footer {
     display: flex;
@@ -180,11 +222,11 @@ footer {
 
 nav {
     text-align: center;
-    font-size:.8em;
+    font-size: .8em;
 }
 
 nav .content a {
-    display:inline-flex;
+    display: inline-flex;
     padding: 4px 4px;
     border: 1px solid white;
     border-radius: 2px;
@@ -195,13 +237,14 @@ nav .content a {
 
 nav a:hover {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-@media only screen and (max-width: 500px) {nav .content a{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: .2em;
+@media only screen and (max-width: 500px) {
+    nav .content a {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: .2em;
     }
 }
 

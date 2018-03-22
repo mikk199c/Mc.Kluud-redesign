@@ -1,5 +1,6 @@
 p {
     font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
 
 
 }
@@ -153,7 +154,7 @@ footer {
 }
 
 em {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 
@@ -197,3 +198,13 @@ nav a:hover {
 .video iframe {
     width: 100%;
 }
+
+
+
+html {
+    background: url(background1.png) no-repeat center center fixed;
+
+    background-size: cover;
+}
+
+

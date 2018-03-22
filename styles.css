@@ -93,7 +93,7 @@ img {
     justify-content: space-around;
 
 
-    outline: 2px solid;
+
 
 
 
@@ -106,7 +106,7 @@ img {
     justify-content: space-between;
     padding:10px;
 
-    outline: 2px solid;
+
 
 }
 
@@ -116,10 +116,12 @@ img {
     flex-basis: 400px;
     justify-content: space-between;
     padding: 10px;
-    outline: 2px solid;
 
 }
 
+.video {
+    padding-top: 19px;
+}
 
 
 

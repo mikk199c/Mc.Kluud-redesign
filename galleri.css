@@ -152,10 +152,14 @@ img {
 
 }
 
-/*************BILLEDER/PICS************/
+/*************Bagrundsbillede************/
 
 
+html {
+    background: url(background1.png) no-repeat center center fixed;
 
+    background-size: cover;
+}
 
 
 /*

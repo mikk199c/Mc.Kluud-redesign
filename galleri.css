@@ -279,3 +279,8 @@ nav a:hover {
 .fa:hover {
     opacity: 0.7;
 }
+
+.top {
+    padding-left: 135px;
+
+}

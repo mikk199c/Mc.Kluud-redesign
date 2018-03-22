@@ -58,6 +58,7 @@ table {
     float: left;
     justify-content: space-around;
     text-align: left;
+    flex-wrap: wrap;
 
 
 
@@ -72,6 +73,7 @@ th {
     padding: 10px;
     margin: auto;
     text-align: left;
+    flex-wrap: wrap;
 
 
 }
@@ -85,6 +87,7 @@ th {
 .sectionwrapper {
     justify-content: center;
     display: flex;
+
 
 }
 

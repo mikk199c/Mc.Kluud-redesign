@@ -1,3 +1,13 @@
+.contact {
+
+   font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.9em;
+       text-align: bottom;
+
+       }
+
+
+
 p {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.2em;
@@ -247,24 +257,32 @@ header {
     background-repeat: no-repeat;
 }
 
-.top { font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1em;
-    color: white;
-    text-align: bottom;
-    margin: auto;
-
-
-
     }
 
 .contact {
 
    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 0.88em;
+    font-size: 0.1em;
        text-align: bottom;
 
        }
-.top {
-    padding-left: 135px;
 
+
+
+.top { font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: bottom;
+    margin: auto;
+    padding-left: 135px;
+    }
+top a:link {
+    text-decoration: none;
+}
+.top a:visited {
+    color: black;
+     }
+
+.top :hover {
+    opacity: 0.7;
 }

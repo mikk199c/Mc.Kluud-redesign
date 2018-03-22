@@ -280,7 +280,21 @@ nav a:hover {
     opacity: 0.7;
 }
 
-.top {
-    padding-left: 135px;
 
+.top { font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: bottom;
+    margin: auto;
+    padding-left: 135px;
+    }
+top a:link {
+    text-decoration: none;
+}
+.top a:visited {
+    color: black;
+     }
+
+.top :hover {
+    opacity: 0.7;
 }

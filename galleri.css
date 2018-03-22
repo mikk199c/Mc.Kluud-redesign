@@ -124,14 +124,14 @@ img {
     flex-grow: 1;
 }
 
-.wrapper_item{
+.wrapper_item {
 
     border: .1vw;
     margin: .1vw;
     padding-bottom: .1vw;
-    }
+}
 
-.gall_con{
+.gall_con {
     display: flex;
     flex-wrap: wrap;
     border: .1vw;
@@ -140,7 +140,7 @@ img {
 
 }
 
-.gall_item{
+.gall_item {
     flex-basis: 400px;
     border: .1vw;
     margin: .1vw;
@@ -153,7 +153,6 @@ img {
 }
 
 /*************Bagrundsbillede************/
-
 
 html {
     background: url(background1.webp) no-repeat center center fixed;
@@ -253,26 +252,27 @@ nav a:hover {
 */
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 
 .fa-flickr {
-  background: #f40083;
-  color: white;
+    background: #f40083;
+    color: white;
 }
+
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 
@@ -281,19 +281,22 @@ nav a:hover {
 }
 
 
-.top { font-family: 'PT Sans Narrow', sans-serif;
+.top {
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1em;
     color: black;
     text-align: bottom;
     margin: auto;
     padding-left: 135px;
-    }
+}
+
 top a:link {
     text-decoration: none;
 }
+
 .top a:visited {
     color: black;
-     }
+}
 
 .top :hover {
     opacity: 0.7;

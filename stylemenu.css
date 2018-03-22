@@ -11,7 +11,7 @@ p {
     color: white;
     text-align: bottom;
 
-    }
+}
 
 h1,
 h3,
@@ -279,25 +279,25 @@ html {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 
 .fa-flickr {
-  background: #f40083;
-  color: white;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #f40083;
+    color: white;
 }
 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}

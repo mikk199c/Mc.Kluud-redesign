@@ -1,10 +1,10 @@
 .contact {
 
-   font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 0.9em;
-       text-align: bottom;
+    text-align: bottom;
 
-       }
+}
 
 
 
@@ -15,7 +15,11 @@ p {
 
 }
 
-h1, h3, h4, h5, h6 {
+h1,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'ryeregular';
 
 
@@ -115,7 +119,8 @@ img {
 .column1 {
     display: flex;
     justify-content: space-between;
-    padding:10px;
+    padding: 10px;
+
 
 
 
@@ -136,14 +141,16 @@ img {
     padding-top: 19px;
 }
 
-@media only screen and (max-width: 560px) { .video
-   {    width: 50vw;
+@media only screen and (max-width: 560px) {
+    .video {
+        width: 50vw;
         height: auto;
     }
 }
 
-@media only screen and (max-width: 560px) { .sectionwrapper
-   {    padding-left: 25px;
+@media only screen and (max-width: 560px) {
+    .sectionwrapper {
+        padding-left: 25px;
     }
 }
 
@@ -153,6 +160,7 @@ img {
 #pic1 {
     max-height: 70vw;
     max-width: 50vw;
+
 }
 
 
@@ -162,6 +170,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
+
 }
 
 em {
@@ -174,11 +183,11 @@ em {
 
 nav {
     text-align: center;
-    font-size:.8em;
+    font-size: .8em;
 }
 
 nav .content a {
-    display:inline-flex;
+    display: inline-flex;
     padding: 4px 4px;
     border: 1px solid white;
     border-radius: 2px;
@@ -189,19 +198,20 @@ nav .content a {
 
 nav a:hover {
     background-color: #59595B;
-    color:white;
+    color: white;
 }
 
-@media only screen and (max-width: 500px) {nav .content a{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: .2em;
+@media only screen and (max-width: 500px) {
+    nav .content a {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: .2em;
     }
 }
 
 
 
-.video  {
+.video {
     width: 90vw;
     height: 55vw;
 }
@@ -220,26 +230,27 @@ html {
 
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 
 .fa-flickr {
-  background: #f40083;
-  color: white;
+    background: #f40083;
+    color: white;
 }
+
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 
@@ -255,33 +266,37 @@ header {
     height: 645px;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
-    }
+}
 
 .contact {
 
-   font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 0.1em;
-       text-align: bottom;
+    text-align: bottom;
 
-       }
+}
 
 
 
-.top { font-family: 'PT Sans Narrow', sans-serif;
+.top {
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1em;
     color: black;
     text-align: bottom;
     margin: auto;
     padding-left: 135px;
-    }
+}
+
 top a:link {
     text-decoration: none;
 }
+
 .top a:visited {
     color: black;
-     }
+}
 
 .top :hover {
     opacity: 0.7;

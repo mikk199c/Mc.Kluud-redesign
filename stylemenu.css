@@ -6,7 +6,11 @@ p {
 
 }
 
-h1, h3, h4, h5, h6 {
+h1,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'ryeregular';
     color: white;
 
@@ -18,7 +22,7 @@ h2 {
     color: white;
     text-align: center;
     font-size: 5em;
-    padding:40px;
+    padding: 40px;
 
 }
 
@@ -33,9 +37,8 @@ h2 {
 
 }*/
 
-
 table {
-     font-family: 'ryeregular';
+    font-family: 'ryeregular';
     color: white;
     border-spacing: 5px;
 
@@ -44,11 +47,12 @@ table {
 
 
 
-td, th {
-     font-family: 'ryeregular';
+td,
+th {
+    font-family: 'ryeregular';
     color: white;
-padding: 3px;
-margin: 2px;
+    padding: 3px;
+    margin: 2px;
 
 
 }
@@ -87,10 +91,6 @@ margin: 2px;
 
 }
 */
-
-
-
-
 
 /*
 .color1 {
@@ -163,8 +163,6 @@ margin: 2px;
 }
 */
 
-
-
 /*
 .column1 {
     display: flex;
@@ -187,9 +185,6 @@ margin: 2px;
 
 */
 
-
-
-
 /*
 
 #pic1 {
@@ -197,8 +192,6 @@ margin: 2px;
     max-width: 50vw;
 }
 */
-
-
 
 footer {
     display: flex;
@@ -211,11 +204,11 @@ footer {
 
 nav {
     text-align: center;
-    font-size:.8em;
+    font-size: .8em;
 }
 
 nav .content a {
-    display:inline-flex;
+    display: inline-flex;
     padding: 4px 4px;
     border: 1px solid white;
     border-radius: 2px;
@@ -226,13 +219,14 @@ nav .content a {
 
 nav a:hover {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-@media only screen and (max-width: 500px) {nav .content a{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: .2em;
+@media only screen and (max-width: 500px) {
+    nav .content a {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: .2em;
     }
 }
 

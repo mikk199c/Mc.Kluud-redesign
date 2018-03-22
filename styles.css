@@ -120,9 +120,15 @@ img {
 }
 
 .video {
+    display: flex;
     padding-top: 19px;
 }
 
+@media only screen and (max-width: 560px) { .video
+   {    width: 50vw;
+        height: auto;
+    }
+}
 
 
 

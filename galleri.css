@@ -108,27 +108,54 @@ h2 {
 
 /******************BILLEDERNE*****************/
 
+/*
 img {
-    width: 100%;
-    height: auto;
+    width: 30vw;
+    height: 30vw;
+}
+*/
+
+.wrapper_con {
+    border: .1vw;
+    margin: .1vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
-img{
-    max-width: 100vw;
-}
+.wrapper_item{
 
-.sectionwrapper {
+    border: .1vw;
+    margin: .1vw;
+    padding-bottom: .1vw;
+    }
+
+.gall_con{
     display: flex;
     flex-wrap: wrap;
+    border: .1vw;
+    margin: .1vw;
+    justify-content: center;
+
+}
+
+.gall_item{
+    flex-basis: 400px;
+    border: .1vw;
+    margin: .1vw;
+    padding: .8vw;
+}
+
+.gall_item img {
+    width: 100%;
+
 }
 
 /*************BILLEDER/PICS************/
 
-.column {
-    display: flex;
-    flex-direction: column;
 
-}
+
 
 
 /*
@@ -211,6 +238,7 @@ nav a:hover {
     color: white;
 }
 
+/*
 @media only screen and (max-width: 500px) {
     nav .content a {
         display: flex;
@@ -218,3 +246,4 @@ nav a:hover {
         margin-bottom: .2em;
     }
 }
+*/

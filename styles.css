@@ -155,7 +155,7 @@ footer {
 }
 
 em {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 
@@ -170,11 +170,11 @@ nav {
 nav .content a {
     display:inline-flex;
     padding: 4px 4px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 2px;
     font-family: 'ryeregular';
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
@@ -231,3 +231,20 @@ html {
   background: #3B5998;
   color: white;
 }
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+header {
+    background: url(splashv2.jpg);
+    height: 600px;
+    background-size: cover;
+
+}
+
+

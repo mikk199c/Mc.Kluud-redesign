@@ -1,7 +1,8 @@
 p {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'ryeregular'; /*, 'PT Sans Narrow', sans-serif*/
     color: white;
     text-align: center;
+    font-size: 0.9em;
 
 
 

@@ -186,3 +186,14 @@ nav a:hover {
     margin-bottom: .2em;
     }
 }
+
+
+
+.video  {
+    width: 90vw;
+    height: 55vw;
+}
+
+.video iframe {
+    width: 100%;
+}
